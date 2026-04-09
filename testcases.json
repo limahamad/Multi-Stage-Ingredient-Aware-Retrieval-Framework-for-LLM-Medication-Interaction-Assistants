@@ -1,0 +1,22 @@
+{
+  "test_cases": [
+    {
+      "id": "TC01",
+      "input": "Can I take Panadol with warfarin?",
+      "category": "typical",
+      "notes": "Brand to ingredient mapping; interaction should be reported with caution and referral."
+    },
+    {
+      "id": "TC02",
+      "input": "Is it safe to use paracetamol while taking metoclopramide?",
+      "category": "typical",
+      "notes": "Known interaction in some sources; system should only answer if evidence exists."
+    },
+    {
+      "id": "TC03",
+      "input": "Can I take ibuprofen together with aspirin?",
+      "category": "typical",
+      "notes": "NSAID-related interaction; otherwise respond uncertain."
+    }
+  ]
+}

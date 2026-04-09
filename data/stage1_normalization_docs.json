@@ -1,0 +1,322 @@
+[
+  {
+    "id": "norm_001",
+    "generic_name": "paracetamol",
+    "brand_names": ["Panadol", "Tylenol", "Calpol"],
+    "aliases": ["acetaminophen"],
+    "abbreviations": [],
+    "description": "Paracetamol is an analgesic and antipyretic. It is also known as acetaminophen and is commonly sold under brand names such as Panadol, Tylenol, and Calpol.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/paracetamol.html"
+  },
+  {
+    "id": "norm_002",
+    "generic_name": "ibuprofen",
+    "brand_names": ["Advil", "Motrin", "Nurofen", "Brufen"],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Ibuprofen is a non-steroidal anti-inflammatory drug (NSAID) used for pain, fever, and inflammation. It is marketed under brand names such as Advil, Motrin, Nurofen, and Brufen.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/ibuprofen.html"
+  },
+  {
+    "id": "norm_003",
+    "generic_name": "aspirin",
+    "brand_names": ["Bayer Aspirin", "Ecotrin", "Bufferin", "baby aspirin"],
+    "aliases": ["acetylsalicylic acid"],
+    "abbreviations": [],
+    "description": "Aspirin is also known as acetylsalicylic acid and appears under brand names such as Bayer Aspirin, Ecotrin, and Bufferin. Low-dose aspirin may also be referred to as baby aspirin.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/aspirin.html"
+  },
+  {
+    "id": "norm_004",
+    "generic_name": "warfarin",
+    "brand_names": ["Coumadin", "Jantoven"],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Warfarin is an anticoagulant used to prevent and treat blood clots. It is marketed under brand names such as Coumadin and Jantoven.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/warfarin.html"
+  },
+  {
+    "id": "norm_005",
+    "generic_name": "amoxicillin",
+    "brand_names": ["Amoxil", "Moxatag"],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Amoxicillin is a penicillin-class antibiotic. It is commonly sold under brand names such as Amoxil and Moxatag.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/amoxicillin.html"
+  },
+  {
+    "id": "norm_006",
+    "generic_name": "amoxicillin clavulanate",
+    "brand_names": ["Augmentin"],
+    "aliases": ["co-amoxiclav", "amoxicillin/clavulanic acid", "amoxicillin + clavulanic acid"],
+    "abbreviations": [],
+    "description": "Augmentin is a combination product containing amoxicillin and clavulanic acid. This entry is important for normalization of combination products.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/amoxicillin.html"
+  },
+  {
+    "id": "norm_007",
+    "generic_name": "metformin",
+    "brand_names": ["Glucophage", "Fortamet", "Glumetza"],
+    "aliases": ["metformin hydrochloride"],
+    "abbreviations": [],
+    "description": "Metformin is an oral antihyperglycemic medicine used for type 2 diabetes. It appears under brand names such as Glucophage, Fortamet, and Glumetza.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/metformin.html"
+  },
+  {
+    "id": "norm_008",
+    "generic_name": "atorvastatin",
+    "brand_names": ["Lipitor"],
+    "aliases": ["atorvastatin calcium"],
+    "abbreviations": [],
+    "description": "Atorvastatin is a statin used to lower cholesterol. It is commonly sold under the brand name Lipitor.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/atorvastatin.html"
+  },
+  {
+    "id": "norm_009",
+    "generic_name": "omeprazole",
+    "brand_names": ["Prilosec", "Losec"],
+    "aliases": [],
+    "abbreviations": ["PPI"],
+    "description": "Omeprazole is a proton pump inhibitor used for acid-related disorders. It is marketed under brand names such as Prilosec and Losec.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/omeprazole.html"
+  },
+  {
+    "id": "norm_010",
+    "generic_name": "naproxen",
+    "brand_names": ["Aleve", "Naprosyn"],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Naproxen is an NSAID used for pain and inflammation. It is marketed under brand names such as Aleve and Naprosyn.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/naproxen.html"
+  },
+  {
+    "id": "norm_011",
+    "generic_name": "lisinopril",
+    "brand_names": ["Prinivil", "Zestril"],
+    "aliases": ["lisinopril dihydrate"],
+    "abbreviations": ["ACE inhibitor"],
+    "description": "Lisinopril is an ACE inhibitor used to treat hypertension and heart failure. It is sold under brand names such as Prinivil and Zestril.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/lisinopril.html"
+  },
+  {
+    "id": "norm_012",
+    "generic_name": "azithromycin",
+    "brand_names": ["Zithromax"],
+    "aliases": ["azithromycin dihydrate"],
+    "abbreviations": [],
+    "description": "Azithromycin is a macrolide antibiotic marketed under the brand name Zithromax.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/azithromycin.html"
+  },
+  {
+    "id": "norm_013",
+    "generic_name": "prednisone",
+    "brand_names": ["Deltasone", "Rayos"],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Prednisone is a corticosteroid used for inflammatory and autoimmune conditions. It is marketed under brand names such as Deltasone and Rayos.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/prednisone.html"
+  },
+  {
+    "id": "norm_014",
+    "generic_name": "ciprofloxacin",
+    "brand_names": ["Cipro"],
+    "aliases": ["ciprofloxacin hydrochloride"],
+    "abbreviations": [],
+    "description": "Ciprofloxacin is a fluoroquinolone antibiotic commonly marketed as Cipro.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/ciprofloxacin.html"
+  },
+  {
+    "id": "norm_015",
+    "generic_name": "losartan",
+    "brand_names": ["Cozaar"],
+    "aliases": ["losartan potassium"],
+    "abbreviations": ["ARB"],
+    "description": "Losartan is an angiotensin II receptor blocker used to treat hypertension and is sold under the brand name Cozaar.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/losartan.html"
+  },
+  {
+    "id": "norm_016",
+    "generic_name": "albuterol",
+    "brand_names": ["Ventolin", "ProAir"],
+    "aliases": ["albuterol sulfate"],
+    "abbreviations": [],
+    "description": "Albuterol is a bronchodilator used for asthma and COPD and appears under brand names such as Ventolin and ProAir.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/albuterol.html"
+  },
+  {
+    "id": "norm_017",
+    "generic_name": "clopidogrel",
+    "brand_names": ["Plavix"],
+    "aliases": ["clopidogrel bisulfate"],
+    "abbreviations": [],
+    "description": "Clopidogrel is an antiplatelet medicine marketed under the brand name Plavix.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/clopidogrel.html"
+  },
+  {
+    "id": "norm_018",
+    "generic_name": "hydrochlorothiazide",
+    "brand_names": ["Microzide"],
+    "aliases": [],
+    "abbreviations": ["HCTZ"],
+    "description": "Hydrochlorothiazide is a thiazide diuretic marketed under brand names such as Microzide. It is also commonly abbreviated as HCTZ.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/hydrochlorothiazide.html"
+  },
+  {
+    "id": "norm_019",
+    "generic_name": "simvastatin",
+    "brand_names": ["Zocor"],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Simvastatin is a statin medicine used to lower cholesterol and is sold under the brand name Zocor.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/simvastatin.html"
+  },
+  {
+    "id": "norm_020",
+    "generic_name": "codeine",
+    "brand_names": [],
+    "aliases": ["codeine phosphate"],
+    "abbreviations": [],
+    "description": "Codeine is an opioid analgesic and antitussive. It is often present in combination products, especially with paracetamol or acetaminophen.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/codeine.html"
+  },
+  {
+    "id": "norm_021",
+    "generic_name": "doxycycline",
+    "brand_names": ["Vibramycin"],
+    "aliases": ["doxycycline hyclate"],
+    "abbreviations": [],
+    "description": "Doxycycline is a tetracycline antibiotic commonly marketed under the brand name Vibramycin.",
+    "source": "drugs_com_normalization_kb",
+    "url": "https://www.drugs.com/doxycycline.html"
+  },
+  {
+    "id": "norm_022",
+    "generic_name": "metoclopramide",
+    "brand_names": [],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Metoclopramide is included as a normalization entry because it appears directly in the interaction test cases with paracetamol.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_023",
+    "generic_name": "cholestyramine",
+    "brand_names": [],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Cholestyramine is included as a normalization entry because it appears in test cases involving paracetamol absorption interactions.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_024",
+    "generic_name": "lamotrigine",
+    "brand_names": [],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Lamotrigine is included as a normalization entry because it appears in test cases involving ingredient-level interaction checks with paracetamol.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_025",
+    "generic_name": "isoniazid",
+    "brand_names": [],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Isoniazid is included as a normalization entry because it appears in test cases related to liver-toxicity risk with paracetamol.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_026",
+    "generic_name": "zidovudine",
+    "brand_names": [],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Zidovudine is included as a normalization entry because it appears in test cases involving paracetamol interaction retrieval.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_027",
+    "generic_name": "flucloxacillin",
+    "brand_names": [],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Flucloxacillin is included as a normalization entry because it appears in edge-case test cases with paracetamol.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_028",
+    "generic_name": "clarithromycin",
+    "brand_names": [],
+    "aliases": [],
+    "abbreviations": [],
+    "description": "Clarithromycin is included as a normalization entry because it appears in test cases involving atorvastatin interaction checks.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_029",
+    "generic_name": "metronidazole",
+    "brand_names": [],
+    "aliases": ["metronidazole injection"],
+    "abbreviations": [],
+    "description": "Metronidazole is included as a normalization entry to support parsing of formulation-specific test cases such as metronidazole injection.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_030",
+    "generic_name": "sodium chloride",
+    "brand_names": [],
+    "aliases": ["0.9% sodium chloride irrigation", "normal saline", "saline irrigation"],
+    "abbreviations": [],
+    "description": "Sodium chloride is included as a normalization entry to support safe parsing of non-oral formulation names such as 0.9% sodium chloride irrigation.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_032",
+    "generic_name": "oral contraceptives",
+    "brand_names": [],
+    "aliases": ["birth control pills"],
+    "abbreviations": [],
+    "description": "Oral contraceptives are included as a class-like normalization target because they appear in test queries and may not always be specified by exact product name.",
+    "source": "test_case_support_kb",
+    "url": ""
+  },
+  {
+    "id": "norm_033",
+    "generic_name": "herbal supplement",
+    "brand_names": [],
+    "aliases": ["herbal supplements"],
+    "abbreviations": [],
+    "description": "Herbal supplement is included as an uncertain class-level input to support safe handling of underspecified test queries.",
+    "source": "test_case_support_kb",
+    "url": ""
+  }
+]

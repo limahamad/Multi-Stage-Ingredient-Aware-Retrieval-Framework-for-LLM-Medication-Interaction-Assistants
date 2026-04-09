@@ -1,0 +1,9 @@
+faiss-cpu
+numpy
+sentence-transformers
+torch
+google-generativeai
+openai
+ragas
+litellm
+groq

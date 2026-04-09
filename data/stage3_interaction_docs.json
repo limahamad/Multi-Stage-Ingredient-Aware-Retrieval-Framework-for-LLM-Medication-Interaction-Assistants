@@ -1,0 +1,519 @@
+[
+  {
+    "id": "int_001",
+    "ingredients_or_classes": ["warfarin", "ibuprofen"],
+    "severity": "major",
+    "interaction_type": "ingredient-level",
+    "summary": "Combining warfarin and ibuprofen can increase bleeding risk.",
+    "mechanism": "Ibuprofen increases gastrointestinal bleeding risk and may amplify anticoagulant-related bleeding.",
+    "evidence_points": [
+      "Both medicines independently increase bleeding risk.",
+      "Combined use increases risk of gastrointestinal and systemic bleeding."
+    ],
+    "recommended_actions": [
+      "Avoid NSAID self-medication while taking warfarin.",
+      "Consult a clinician before combining these medicines."
+    ],
+    "source": "sample_interaction_kb",
+    "url": "https://example.org/interactions/warfarin-ibuprofen"
+  },
+
+  {
+    "id": "int_002",
+    "ingredients_or_classes": ["paracetamol", "ibuprofen"],
+    "severity": "mild",
+    "interaction_type": "ingredient-level",
+    "summary": "Paracetamol and ibuprofen are sometimes used together but patient context and dosing matter.",
+    "mechanism": "These medicines act through different mechanisms and usually do not directly interact at standard doses.",
+    "evidence_points": [
+      "Combination may be used in some pain-management settings.",
+      "Patient conditions such as kidney or liver disease must still be considered."
+    ],
+    "recommended_actions": [
+      "Use recommended dose limits.",
+      "Seek medical advice for prolonged combined use."
+    ],
+    "source": "sample_interaction_kb",
+    "url": "https://example.org/interactions/paracetamol-ibuprofen"
+  },
+
+  {
+    "id": "int_003",
+    "ingredients_or_classes": ["amoxicillin", "warfarin"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Amoxicillin may affect anticoagulation control in patients taking warfarin.",
+    "mechanism": "Antibiotic-induced changes in gut flora may influence vitamin K metabolism and warfarin response.",
+    "evidence_points": [
+      "Some patients experience increased anticoagulation effects.",
+      "Monitoring may be required during antibiotic therapy."
+    ],
+    "recommended_actions": [
+      "Monitor coagulation parameters if prescribed together.",
+      "Consult the prescribing clinician."
+    ],
+    "source": "sample_interaction_kb",
+    "url": "https://example.org/interactions/amoxicillin-warfarin"
+  },
+
+  {
+    "id": "int_004",
+    "ingredients_or_classes": ["NSAID", "anticoagulant"],
+    "severity": "major",
+    "interaction_type": "class-level",
+    "summary": "NSAIDs combined with anticoagulants can significantly increase bleeding risk.",
+    "mechanism": "Both drug classes influence hemostasis and platelet function.",
+    "evidence_points": [
+      "Class-level interaction affecting many combinations.",
+      "Important for reasoning when ingredient names differ."
+    ],
+    "recommended_actions": [
+      "Use alternative analgesics when possible.",
+      "Clinical review is recommended."
+    ],
+    "source": "sample_interaction_kb",
+    "url": "https://example.org/interactions/nsaid-anticoagulant"
+  },
+
+  {
+    "id": "int_005",
+    "ingredients_or_classes": ["warfarin", "paracetamol"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "High-dose or long-term paracetamol use may increase warfarin anticoagulant effects.",
+    "mechanism": "Possible alteration of vitamin K–dependent clotting pathways during prolonged exposure.",
+    "evidence_points": [
+      "Interaction appears mainly with repeated high doses.",
+      "Bleeding risk may increase in some patients."
+    ],
+    "recommended_actions": [
+      "Monitor INR if prolonged paracetamol use occurs.",
+      "Consult a clinician for chronic pain management."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+
+  {
+    "id": "int_006",
+    "ingredients_or_classes": ["ibuprofen", "aspirin"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Ibuprofen may reduce the cardioprotective effect of low-dose aspirin.",
+    "mechanism": "Ibuprofen competes for platelet COX binding sites and may interfere with aspirin's irreversible platelet inhibition.",
+    "evidence_points": [
+      "Timing of doses influences the interaction.",
+      "Common concern in cardiovascular prevention therapy."
+    ],
+    "recommended_actions": [
+      "Separate dosing when possible.",
+      "Discuss NSAID use with a clinician if taking aspirin for heart protection."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+
+  {
+    "id": "int_007",
+    "ingredients_or_classes": ["atorvastatin", "clarithromycin"],
+    "severity": "major",
+    "interaction_type": "ingredient-level",
+    "summary": "Clarithromycin may increase atorvastatin levels and risk of muscle toxicity.",
+    "mechanism": "Clarithromycin inhibits CYP3A4 enzymes responsible for atorvastatin metabolism.",
+    "evidence_points": [
+      "Statin levels may rise significantly with CYP3A4 inhibition.",
+      "Risk of myopathy or rhabdomyolysis increases."
+    ],
+    "recommended_actions": [
+      "Consider temporary statin interruption or dose adjustment.",
+      "Monitor for muscle pain or weakness."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+
+  {
+    "id": "int_008",
+    "ingredients_or_classes": ["atorvastatin", "grapefruit juice"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Grapefruit juice may increase atorvastatin concentration.",
+    "mechanism": "Inhibition of intestinal CYP3A4 enzymes reduces statin metabolism.",
+    "evidence_points": [
+      "Effect increases with large amounts of grapefruit juice.",
+      "Not all statins are equally affected."
+    ],
+    "recommended_actions": [
+      "Limit grapefruit consumption.",
+      "Discuss diet considerations with a clinician."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+
+  {
+    "id": "int_009",
+    "ingredients_or_classes": ["lisinopril", "ibuprofen"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Ibuprofen may reduce the blood-pressure-lowering effect of lisinopril.",
+    "mechanism": "NSAIDs may affect renal prostaglandins and alter antihypertensive response.",
+    "evidence_points": [
+      "Kidney function may be affected in susceptible patients.",
+      "Interaction is more relevant in elderly or dehydrated patients."
+    ],
+    "recommended_actions": [
+      "Monitor blood pressure and kidney function.",
+      "Use NSAIDs cautiously in patients with hypertension."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+
+  {
+    "id": "int_010",
+    "ingredients_or_classes": ["clopidogrel", "omeprazole"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Omeprazole may reduce activation of clopidogrel.",
+    "mechanism": "Omeprazole inhibits CYP2C19, an enzyme required to activate clopidogrel.",
+    "evidence_points": [
+      "Reduced antiplatelet activity may occur.",
+      "Alternative acid-suppressing therapy may be considered."
+    ],
+    "recommended_actions": [
+      "Consider alternative PPIs when appropriate.",
+      "Consult a clinician before combining these medications."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+
+[
+  {
+    "id": "int_011",
+    "ingredients_or_classes": ["paracetamol", "metoclopramide"],
+    "severity": "mild",
+    "interaction_type": "ingredient-level",
+    "summary": "Metoclopramide may increase the rate of paracetamol absorption and make its effect start sooner.",
+    "mechanism": "Metoclopramide increases gastric emptying, which can speed the absorption of paracetamol.",
+    "evidence_points": [
+      "This interaction mainly affects absorption rate rather than toxicity.",
+      "Clinical importance is usually limited but may be relevant to onset of action."
+    ],
+    "recommended_actions": [
+      "Use together only as directed.",
+      "Seek clinician advice if symptoms or dosing concerns arise."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_012",
+    "ingredients_or_classes": ["paracetamol", "cholestyramine"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Cholestyramine may reduce paracetamol absorption if taken around the same time.",
+    "mechanism": "Cholestyramine can bind drugs in the gut and reduce paracetamol absorption.",
+    "evidence_points": [
+      "Reduced absorption may lower paracetamol effectiveness.",
+      "Timing separation is often relevant."
+    ],
+    "recommended_actions": [
+      "Separate administration times when possible.",
+      "Consult a pharmacist or clinician for exact timing advice."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_013",
+    "ingredients_or_classes": ["paracetamol", "lamotrigine"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Repeated paracetamol use may reduce lamotrigine levels in some patients.",
+    "mechanism": "Paracetamol may increase lamotrigine clearance during repeated use.",
+    "evidence_points": [
+      "Potential reduction in lamotrigine exposure has been reported.",
+      "Clinical relevance depends on dose and duration."
+    ],
+    "recommended_actions": [
+      "Use with caution if repeated paracetamol use is needed.",
+      "Discuss seizure-control concerns with the prescribing clinician."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_014",
+    "ingredients_or_classes": ["paracetamol", "isoniazid"],
+    "severity": "major",
+    "interaction_type": "ingredient-level",
+    "summary": "Combining paracetamol with isoniazid may increase the risk of liver toxicity.",
+    "mechanism": "Both medicines may increase hepatic stress, and isoniazid may increase susceptibility to paracetamol-related liver injury.",
+    "evidence_points": [
+      "Liver toxicity risk is an important concern with this combination.",
+      "Risk may be higher with higher doses or prolonged use."
+    ],
+    "recommended_actions": [
+      "Avoid unnecessary paracetamol exposure.",
+      "Seek clinician advice and monitor for liver-related symptoms."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_015",
+    "ingredients_or_classes": ["paracetamol", "zidovudine"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Paracetamol with zidovudine may increase the risk of blood or liver-related adverse effects in some patients.",
+    "mechanism": "Combined use may increase risk of neutropenia or hepatic adverse effects in susceptible patients.",
+    "evidence_points": [
+      "Clinical caution is advised with repeated or prolonged combined use.",
+      "Monitoring may be appropriate in higher-risk patients."
+    ],
+    "recommended_actions": [
+      "Consult the prescribing clinician before frequent combined use.",
+      "Monitor for unusual fatigue, fever, or liver-related symptoms."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_016",
+    "ingredients_or_classes": ["paracetamol", "flucloxacillin"],
+    "severity": "major",
+    "interaction_type": "ingredient-level",
+    "summary": "Paracetamol with flucloxacillin has been associated with high anion gap metabolic acidosis in susceptible patients.",
+    "mechanism": "A rare but serious metabolic complication may occur, especially in vulnerable patients.",
+    "evidence_points": [
+      "Risk is greater in sepsis, malnutrition, kidney impairment, or high paracetamol exposure.",
+      "This is a higher-caution interaction despite being uncommon."
+    ],
+    "recommended_actions": [
+      "Use only under appropriate clinical guidance.",
+      "Seek urgent medical advice if unwell or high-risk factors are present."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_017",
+    "ingredients_or_classes": ["paracetamol", "oral contraceptives"],
+    "severity": "mild",
+    "interaction_type": "class-level",
+    "summary": "Oral contraceptives may slightly increase paracetamol clearance, but this is generally not considered a major harmful interaction.",
+    "mechanism": "Hormonal contraceptives may modestly alter paracetamol metabolism.",
+    "evidence_points": [
+      "The effect is usually small.",
+      "This is generally not treated as a major safety interaction."
+    ],
+    "recommended_actions": [
+      "Usual short-term use is generally acceptable.",
+      "Seek advice if other risk factors are present."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_018",
+    "ingredients_or_classes": ["metformin", "lisinopril"],
+    "severity": "none-significant",
+    "interaction_type": "ingredient-level",
+    "summary": "No major direct interaction is generally expected between metformin and lisinopril alone.",
+    "mechanism": "These medicines are commonly used together; concern is usually related to kidney status rather than a strong direct interaction.",
+    "evidence_points": [
+      "The combination is common in patients with diabetes and hypertension.",
+      "Monitoring is still sensible during dehydration, acute illness, or kidney impairment."
+    ],
+    "recommended_actions": [
+      "Continue as prescribed unless advised otherwise.",
+      "Monitor kidney-related clinical factors when appropriate."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_019",
+    "ingredients_or_classes": ["ciprofloxacin", "warfarin"],
+    "severity": "major",
+    "interaction_type": "ingredient-level",
+    "summary": "Ciprofloxacin may increase warfarin anticoagulant effects and bleeding risk.",
+    "mechanism": "Ciprofloxacin may alter warfarin metabolism and enhance anticoagulant effect.",
+    "evidence_points": [
+      "Bleeding risk may increase during combined therapy.",
+      "This is a recognized higher-risk interaction."
+    ],
+    "recommended_actions": [
+      "Monitor INR and bleeding symptoms closely.",
+      "Consult the prescribing clinician."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_020",
+    "ingredients_or_classes": ["losartan", "ibuprofen"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Ibuprofen may reduce the blood-pressure-lowering effect of losartan and increase kidney risk.",
+    "mechanism": "NSAIDs may reduce renal prostaglandin activity, affecting antihypertensive effect and kidney perfusion.",
+    "evidence_points": [
+      "The interaction is more relevant in dehydration, older age, or kidney disease.",
+      "Monitoring may be needed with repeated NSAID use."
+    ],
+    "recommended_actions": [
+      "Use NSAIDs cautiously.",
+      "Monitor blood pressure and kidney function if clinically indicated."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_021",
+    "ingredients_or_classes": ["simvastatin", "grapefruit juice"],
+    "severity": "major",
+    "interaction_type": "ingredient-level",
+    "summary": "Grapefruit juice may increase simvastatin levels and raise the risk of muscle toxicity.",
+    "mechanism": "Grapefruit inhibits intestinal CYP3A4, reducing simvastatin metabolism.",
+    "evidence_points": [
+      "This interaction is stronger and more clinically important for simvastatin than for some other statins.",
+      "Risk includes myopathy and rhabdomyolysis."
+    ],
+    "recommended_actions": [
+      "Avoid grapefruit juice while taking simvastatin unless advised otherwise.",
+      "Seek medical advice if muscle pain or weakness develops."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_022",
+    "ingredients_or_classes": ["codeine", "paracetamol"],
+    "severity": "moderate",
+    "interaction_type": "ingredient-level",
+    "summary": "Many codeine products already contain paracetamol, so combining them with another acetaminophen-containing medicine may duplicate therapy and increase overdose risk.",
+    "mechanism": "Ingredient overlap can lead to excess total paracetamol exposure.",
+    "evidence_points": [
+      "The main risk is duplication of paracetamol rather than a classic pharmacodynamic interaction.",
+      "This is especially important when product names hide the ingredient list."
+    ],
+    "recommended_actions": [
+      "Check product ingredients carefully.",
+      "Avoid taking multiple paracetamol-containing products together."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_023",
+    "ingredients_or_classes": ["Tylenol", "Panadol"],
+    "severity": "major",
+    "interaction_type": "normalization-overlap",
+    "summary": "Tylenol and Panadol contain the same active ingredient, paracetamol/acetaminophen, so taking them together duplicates therapy and may increase overdose risk.",
+    "mechanism": "Both product names normalize to the same ingredient.",
+    "evidence_points": [
+      "This is an ingredient-overlap risk rather than two different medicines interacting.",
+      "Normalization is necessary to detect that both names refer to the same ingredient."
+    ],
+    "recommended_actions": [
+      "Do not take both together unless total dose has been explicitly reviewed.",
+      "Check the full ingredient list of all pain medicines."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_024",
+    "ingredients_or_classes": ["unknown product", "paracetamol"],
+    "severity": "uncertain",
+    "interaction_type": "uncertainty-handling",
+    "summary": "The safety of combining an unknown product with paracetamol cannot be determined without knowing the product ingredients.",
+    "mechanism": "Unknown ingredient composition prevents reliable interaction checking.",
+    "evidence_points": [
+      "Unknown brand names may contain hidden overlapping ingredients.",
+      "A safe answer requires the exact ingredient list."
+    ],
+    "recommended_actions": [
+      "Check the product label or ingredient list first.",
+      "Ask a pharmacist or clinician before use."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_025",
+    "ingredients_or_classes": ["paracetamol", "herbal supplement"],
+    "severity": "uncertain",
+    "interaction_type": "uncertainty-handling",
+    "summary": "The safety of paracetamol with a herbal supplement cannot be judged confidently unless the exact herbal ingredients are known.",
+    "mechanism": "Herbal products vary widely in composition and may affect liver enzymes or contain unknown active substances.",
+    "evidence_points": [
+      "A generic herbal-supplement label is too vague for reliable interaction assessment.",
+      "Ingredient identification is required before making a confident safety judgment."
+    ],
+    "recommended_actions": [
+      "Do not assume the combination is safe.",
+      "Check the exact herbal ingredients with a pharmacist or clinician."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_026",
+    "ingredients_or_classes": ["sodium chloride irrigation", "metronidazole injection"],
+    "severity": "uncertain",
+    "interaction_type": "compatibility-route-specific",
+    "summary": "Compatibility between 0.9% sodium chloride irrigation and metronidazole injection depends on the exact formulation and route, so the answer should remain uncertain without a specific compatibility reference.",
+    "mechanism": "This is a formulation and route-specific compatibility question rather than a standard oral drug-drug interaction.",
+    "evidence_points": [
+      "Product route and intended use matter.",
+      "A general DDI knowledge base may not be sufficient for sterile compatibility decisions."
+    ],
+    "recommended_actions": [
+      "Consult a pharmacist or an approved compatibility reference.",
+      "Do not assume compatibility without product-specific evidence."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_027",
+    "ingredients_or_classes": ["amoxicillin clavulanate", "amoxicillin allergy"],
+    "severity": "major",
+    "interaction_type": "allergy-contraindication",
+    "summary": "Augmentin contains amoxicillin and should generally be avoided in a patient with amoxicillin allergy.",
+    "mechanism": "The combination product includes amoxicillin, so the allergy concern still applies.",
+    "evidence_points": [
+      "This is a contraindication/allergy issue rather than a classic DDI.",
+      "Ingredient-level identification is needed to detect the cross-allergy risk."
+    ],
+    "recommended_actions": [
+      "Do not take the medicine unless a clinician has specifically reviewed the allergy history.",
+      "Ask the prescriber or pharmacist for an alternative."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  },
+  {
+    "id": "int_028",
+    "ingredients_or_classes": ["aspirin", "warfarin"],
+    "severity": "major",
+    "interaction_type": "ingredient-level",
+    "summary": "Aspirin and warfarin together can significantly increase bleeding risk.",
+    "mechanism": "Aspirin impairs platelet function while warfarin reduces clotting factor activity.",
+    "evidence_points": [
+      "This is a high-risk bleeding combination.",
+      "Risk is increased even further if other NSAIDs are also used."
+    ],
+    "recommended_actions": [
+      "Avoid self-starting aspirin while on warfarin unless prescribed.",
+      "Seek urgent medical advice for bleeding symptoms."
+    ],
+    "source": "drug_interaction_kb",
+    "url": ""
+  }
+]
+
+]

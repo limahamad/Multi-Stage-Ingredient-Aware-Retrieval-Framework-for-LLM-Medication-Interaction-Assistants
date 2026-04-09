@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {"id": "panadol", "type": "brand", "name": "Panadol"},
+    {"id": "tylenol", "type": "brand", "name": "Tylenol"},
+    {"id": "advil", "type": "brand", "name": "Advil"},
+    {"id": "coumadin", "type": "brand", "name": "Coumadin"},
+    {"id": "lipitor", "type": "brand", "name": "Lipitor"},
+    {"id": "plavix", "type": "brand", "name": "Plavix"},
+
+    {"id": "paracetamol", "type": "generic", "name": "paracetamol"},
+    {"id": "ibuprofen", "type": "generic", "name": "ibuprofen"},
+    {"id": "warfarin", "type": "generic", "name": "warfarin"},
+    {"id": "atorvastatin", "type": "generic", "name": "atorvastatin"},
+    {"id": "clopidogrel", "type": "generic", "name": "clopidogrel"}
+  ],
+  "edges": [
+    {"source": "panadol", "target": "paracetamol", "relation": "maps_to"},
+    {"source": "tylenol", "target": "paracetamol", "relation": "maps_to"},
+    {"source": "advil", "target": "ibuprofen", "relation": "maps_to"},
+    {"source": "coumadin", "target": "warfarin", "relation": "maps_to"},
+    {"source": "lipitor", "target": "atorvastatin", "relation": "maps_to"},
+    {"source": "plavix", "target": "clopidogrel", "relation": "maps_to"}
+  ]
+}

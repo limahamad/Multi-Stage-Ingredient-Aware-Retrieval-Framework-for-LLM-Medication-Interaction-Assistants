@@ -1,0 +1,3 @@
+id,category,query,notes,accuracy,safety,clarity
+TC01,typical,Can I take Panadol with warfarin?,Brand to ingredient mapping; interaction should be reported with caution and referral.,5,5,5
+TC03,typical,Can I take ibuprofen together with aspirin?,NSAID-related interaction; otherwise respond uncertain.,5,5,5
