@@ -3,8 +3,10 @@ numpy
 faiss-cpu==1.13.2
 torch==2.11.0
 torchvision==0.26.0
-sentence-transformers==3.0.1
+sentence-transformers==5.3.0
 google-generativeai==0.8.6
 ragas
 litellm
 groq
+datasets==4.8.4
+pyarrow==23.0.1
